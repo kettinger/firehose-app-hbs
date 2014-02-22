@@ -1,9 +1,10 @@
-<div class="smurfy">
+<div class="smurfy span6 offset4 text-center">
+<h1 class ="custom-h1">Upload your bear pictures here</h1>
 	
 	<%= simple_form_for @pic do |f| %>
-		<%= f.input :title %>
-		<%= f.input :subtitle %>
-		<%= f.input :message %>
+		<%= f.input :title, label: 'What is in this picture?', placeholder: 'Polar Bear Rolling' %>
+		<%= f.input :subtitle, label: 'Write a funny caption:', placeholder: 'So much snow!' %>
+		<%= f.input :message, label: 'Describe in detail:', placeholder: 'Bear rolls around for fun at the end of the day' %>
 
 		<%= f.submit "Save" %>
 	<% end %>
