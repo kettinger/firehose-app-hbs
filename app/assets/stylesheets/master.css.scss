@@ -26,10 +26,26 @@ body {
 		line-height: 48px;
 }
 
+.custom-h1b {
+		color: white;
+		font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+		font-weight: 100;
+		font-size: 30px;
+		line-height: 30px;
+}
+
 h2 {
 	color: #E5F71B;
 	font-family: 'Chewy', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
 	font-weight: 100;
-	font-size: 24px;
-		line-height: 24px;
+	font-size: 22px;
+		line-height: 22px;
+}
+
+.custom-h2 {
+	color: #E5F71B;
+	font-family: Helvetica, sans-serif;
+	font-weight: 80;
+	font-size: 14px;
+		line-height: 14px;
 }
